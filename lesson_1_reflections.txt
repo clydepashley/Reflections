@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	quickly scan changes in a longer text
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+	++ user can control when is a good time to commit
+
+	-- user may forget to commit, or something may go wrong before a commit has been made
+
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+by typing them in the terminal, then looking at:
+	commit ids, comments for logs 
+	+ and - for diffs
