@@ -1,14 +1,23 @@
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+1) How is the staging area different from the working directory and the repository? What value do you think it offers?
+	-You can modify what you want to go in to a specific commit. Still don't know how to 'cherry pick' line by line like you can in Xcode
 
-	you can modify what you want to go in to a specific commit. Still don't know how to 'cherry pick' line by line like you can in Xcode
+2) How can you use the staging area to make sure you have one commit per logical change?
+	-By adding or removing files as necessary
 
-How can you use the staging area to make sure you have one commit per logical change?
+3) What are some situations when branches would be helpful in keeping your history organized? 
+	 -Experimental features
+	 -Dev / Beta / Release versions of software
+   How would branches help?
+	 -Provide a way to easily switch between the different situations
 
-	by adding or removing files as necessary
+4) How do the diagrams help you visualize the branch structure?
+	-Easier to see where things branch off
 
-What are some situations when branches would be helpful in keeping your history organized? 
-	Experimental features
-	Dev / Beta / Release versions of software
-How would branches help?
-	Provide a way to easily switch between the different situations
+5) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	-Changes for both braches are performed based on the branching point
+
+6) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	+ auto - quicker if possible
+	- auto can't always be done
+	
 	
