@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  - Centralize it in the cloud for use with different machines / developers
+  - shared projects
+  - public projects
+  
