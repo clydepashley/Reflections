@@ -1,0 +1,19 @@
+git init				Initialize a repository
+git status				Show which file are tracked and to be committed
+git add <file>			Add a file to the staging area
+git reset <file> 		Remove a file from the staging area
+git commit				Commit files from the staging area to the repository
+git diff				Compare the working directory to the staging area
+git diff --staged		Compare the staging area to the latest commit
+git reset --hard		Revert all not committed changes
+git branch				Show branches
+git branch <name>		Create a branch called "name"
+git log --graph			Make a graph
+git log --graph --oneline	Make a graph, show only commit IDs and comments
+git log --graph --oneline <id1> <id2>	Make a graph for id1 and id2
+git checkout -b <name>	Create a branch "name" and commit to it
+git gc					Run garbage collector
+git show <id>			Compare a commit to its parent
+git merge <name>		Merge the current branch with the branch <name>
+git branch -d <name>	Delete the branch <name> (i.e. after merging)
+git merge --abort		Abort merging (in case of conflicts)

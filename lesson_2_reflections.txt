@@ -20,4 +20,3 @@
 	+ auto - quicker if possible
 	- auto can't always be done
 	
-	
